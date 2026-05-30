@@ -1,0 +1,45 @@
+<!-- forms are used to collect user input and information -->
+
+<form>
+  <label for="username">Enter yor Username: </label>
+  <input
+    type="text"
+    placeholder="Enter your name"
+    name="username"
+    id="username"
+    required
+  />
+  <br />
+
+  <label for="password">Enter your Password: </label>
+  <input
+    type="password"
+    placeholder="Enter your password"
+    name="password"
+    id="password"
+    required
+  />
+  <br />
+
+  <label>Enter your Gender: </label>
+  <input type="radio" name="gender" /> Male
+  <input type="radio" name="gender" /> Female
+  <input type="radio" name="gender" /> Transgender
+
+  <br />
+
+  <label>Enter your Hobbies: </label>
+  <input type="checkbox" name="cricket" /> Cricket
+  <input type="checkbox" name="dance" /> Dance
+  <input type="checkbox" name="walking" /> Walking
+
+  <br />
+  <label> Enter your comments: </label>
+  <textarea
+    rows="10"
+    cols="50"
+    placeholder="Enter your comments here"
+  ></textarea>
+  <br />
+  <button>Submit</button>
+</form>

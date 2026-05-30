@@ -1,0 +1,13 @@
+1) first time after creating the repo
+=========================================
+git init => initialize the git in local
+git status => give status of files
+git add . => add all files and make them ready to push
+git commit -m "pushing git commands"
+git remote add origin https://github.com/daniellejusayan/guvinotes.git
+git push --set-upstream origin master
+
+2) after doing modifications
+git add . 
+git commit -m "commit message"
+git push 
