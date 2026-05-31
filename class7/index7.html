@@ -1,0 +1,70 @@
+<!-- pseudo classes are used to apply special state to the element -->
+
+<!-- :hover ... when the mouse moves over the element -->
+ <!-- :active.. when the element is clicked -->
+  <!-- :visited.. when the link is visited -->
+   <!-- :link... unvisited link-->
+
+   <style>
+    a:hover {
+        color: orange;
+    }
+
+    a:active {
+        color: blue;
+    }
+
+    a:visited {
+        color: green;
+    }
+
+    a:link {
+        color: blue;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+    }
+
+    button:hover {
+        background-color: blue;
+    }
+
+    input:focus {
+        border: 2px solid orange;
+    }
+
+    li:first-child {
+        color: red;
+    }
+
+    li:last-child {
+        color: blue;
+    }
+
+    li:nth-child(even) {
+        background-color: lightgray;
+    }
+    li:nth-child(odd) {
+        background-color: lightblue;
+    }
+   </style>
+
+<a href="https://google.com">Google</a>
+
+<button>
+Submit
+</button>
+
+<input type="text" placeholder="Enter your Name">
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+
+

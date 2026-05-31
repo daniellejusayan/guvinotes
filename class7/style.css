@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+    color: green;
+}
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+}
