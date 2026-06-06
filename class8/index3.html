@@ -1,0 +1,26 @@
+<!-- css column layout is used to split the content into multiple columns -->
+
+<style>
+    div {
+    column-count: 3; /* specifies the number of columns an element should be divided into */
+    border: 2px solid black;
+    column-width: 200px; /* specifies the optimal width of the columns. The browser will create as many columns as needed to fit the content while maintaining the specified width */
+    columns: 3 200px; /* shorthand for column-count and column-width. The first value is the number of columns, and the second value is the width of each column */
+    column-rule: 5px solid red; /* specifies the style, width, and color of the line between columns. Values can be normal, none, or a combination of width, style, and color (e.g., 1px solid black) */
+    column-rule-width: 5px; /* specifies the width of the line between columns. Values can be a length value (e.g., 1px) or a keyword (thin, medium, thick) */
+    column-rule-color: aqua; /* specifies the color of the line between columns. Values can be a color name, a hex value, an rgb value, or an rgba value */
+    column-rule-style: dashed; /* specifies the style of the line between columns. Values can be none, hidden, dotted, dashed, solid, double, groove, ridge, inset, or outset */
+    }
+
+</style>
+
+<div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestias veniam eum porro aut suscipit dolore omnis quis. Deserunt, labore eaque. Dignissimos esse quidem accusantium, nam voluptate totam libero cupiditate?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni impedit autem eum est fugit recusandae neque ex fuga? Cum adipisci voluptatem ullam doloremque nemo distinctio recusandae expedita facilis aperiam.
+    lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestias veniam eum porro aut suscipit dolore omnis quis. Deserunt, labore eaque. Dignissimos esse quidem accusantium, nam voluptate totam libero cupiditate?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni impedit autem eum est fugit recusandae neque ex fuga? Cum adipisci voluptatem ullam doloremque nemo distinctio recusandae expedita facilis aperiam.
+    lorem
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestias veniam eum porro aut suscipit dolore omnis quis. Deserunt, labore eaque. Dignissimos esse quidem accusantium, nam voluptate totam libero cupiditate?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni impedit autem eum est fugit recusandae neque ex fuga? Cum adipisci voluptatem ullam doloremque nemo distinctio recusandae expedita facilis aperiam.
+    lorem
+</div>

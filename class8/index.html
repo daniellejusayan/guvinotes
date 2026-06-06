@@ -1,0 +1,35 @@
+<!-- overflow property controls what happens when the content is too big for its container -->
+
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Overflow property in CSS
+        </title>
+        <style>
+            div {
+                border: 2px solid black;
+                width: 200px;
+                height: 100px;
+                overflow: auto; /* adds scrollbars if content overflows */
+                /* overflow: hidden; /* hides overflow content */
+                    /* overflow: scroll; /* always shows scrollbars */
+                    /* overflow: visible; /* default, content overflows without scrollbars */
+                    /* overflow-x: scroll; /* horizontal scrollbar only */
+                    /* overflow-y: scroll; /* vertical scrollbar only */    
+
+
+                    /* overflow: clip; /* clips overflow content without scrollbars */
+                    /* overflow: inherit; /* inherits overflow value from parent element */ 
+                    /* overflow: initial; /* sets overflow to its default value (visible) */
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div>
+            This is a div with overflow property. If the content exceeds the size of the div, it will show scrollbars or hide the overflow content based on the overflow value set in CSS
+        </div>
+    </body>
+</html>

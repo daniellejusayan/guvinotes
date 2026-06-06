@@ -1,0 +1,65 @@
+<!-- positions is used to control the placement of the element in the webpage  -->
+
+<!-- /* 1. static: default position, elements are positioned according to the normal flow of the document */
+/* 2. relative: elements are positioned relative to their normal position. You can use top, right, bottom, and left properties to adjust the position of the element */
+/* 3. absolute: elements are positioned relative to the nearest positioned ancestor (not static). If there is no positioned ancestor, it will be positioned relative to the initial containing block (usually the viewport) */
+/* 4. fixed: elements are positioned relative to the viewport, which means they stay in the same place even when the page is scrolled */
+/* 5. sticky: elements are positioned based on the user's scroll position. A sticky element -->
+<!-- 
+===========
+/* to position the elements have to use top right bottom left */ -->
+
+<!-- status is the default position where elements stays in the normal document flow -->
+
+<style>
+  .box {
+    background-color: lightgrey;
+    padding: 20px;
+    position: static; /* default position, elements are positioned according to the normal flow of the document */
+    top: 20px; /* moves the element 20px down from its normal position */
+    left: 20px; /* moves the element 20px to the right from its normal position */
+    bottom: 20px; /* moves the element 20px up from its normal position */
+    right: 20px; /* moves the element 20px to the left from its normal position */
+  }
+</style>
+
+<div class="box">This is Something</div>
+
+<!-- relative 
+elements stay in the normal flow but we can more the relative element where we want to move 
+-->
+
+<style>
+  .box1 {
+    background-color: lightgrey;
+    padding: 20px;
+    position: relative; /* elements are positioned relative to their normal position1 */
+    top: 20px; /* moves the element 20px down from its normal position */
+    left: 20px; /* moves the element 20px to the right from its normal position */
+    bottom: 20px; /* moves the element 20px up from its normal position */
+    right: 20px; /* moves the element 20px to the left from its normal position */
+  }
+</style>
+
+<div class="box1">This is Something</div>
+
+<style>
+  .container {
+    position: relative; /* establishes a new containing block for absolutely positioned elements */
+    width: 120px;
+  }
+  span {
+    background-color: red;
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    right: 6px;
+    top: -12px;
+  }
+</style>
+
+<div class="container">
+  This is a container
+  <span>3</span>
+</div>

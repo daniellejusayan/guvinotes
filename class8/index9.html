@@ -1,0 +1,56 @@
+<!-- FLEX BOX is the css layout used to arrange items in a row or column easily 
+ 
+It helps us alight the items, distribute the space, and make responsive layouts
+
+also helps in controlling the direction, size, order of elements 
+
+We can control the flex item direction
+flex-direction: row, column, row-reverse, column-reverse
+-->
+
+<style>
+    .navbar {
+        display:flex; /* defines a flex container and enables a flex context for all its direct children */
+        background: black;
+        padding: 20px;
+        flex-direction: row; /* specifies the direction of the flexible items. Values can be row (default), column, row-reverse, or column-reverse */
+            /* flex-direction: column; /* stacks the flex items vertically from top to bottom */
+            /* flex-direction: row-reverse; /* arranges the flex items in a row but in reverse order (from right to left) */
+            /* flex-direction: column-reverse; /* stacks the flex items vertically but in reverse order (from bottom to top) */
+
+    }
+
+    .nav-item {
+        color: white;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .chat-users {
+        display: flex;
+        flex-direction: column; /* stacks the flex items vertically from top to bottom */
+        background: #dddd;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .user {
+        background: white;
+        padding: 15px;
+        margin: 10px 0;
+    }
+</style>
+
+<div class="navbar"> 
+    <div class="nav-item"> Home </div>
+    <div class="nav-item"> About </div>
+    <div class="nav-item"> Services</div>
+    <div class="nav-item"> Contact </div>
+</div>
+
+<div class="chat-users">
+    <div class="user"> User 1 </div>
+    <div class="user"> User 2 </div>
+    <div class="user"> User 3 </div>
+    <div class="user"> User 4 </div>
+</div>

@@ -1,0 +1,26 @@
+<!-- ABSOLUTE POSITIONING
+ 
+1. element is removed from the normal flow
+2. if we have ancestor (relative, sticky, fixed) then the absolute element will be positioned relative to the nearest ancestor
+3. if ancestor is not there then the absolute element will be positioned relative to the initial containing block (usually the viewport) -->
+
+<style>
+  .outside {
+    position: relative; /* establishes a new containing block for absolutely positioned elements */
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+  }
+  .inside {
+    background: saddlebrown;
+    padding: 10px;
+    position: absolute; /* elements are positioned relative to the nearest positioned ancestor (not static). If there is no positioned ancestor, it will be positioned relative to the initial containing block (usually the viewport) */
+    top: 90px; /* moves the element 90px down from the top of the containing block */
+    left: 100px; /* moves the element 90px to the right from the left of the containing block */
+    right: 100px; /* moves the element 90px to the left from the right of the containing block */
+  }
+</style>
+
+<div class="outside">
+  <div class="inside">Absolute Positioning</div>
+</div>
