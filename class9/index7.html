@@ -1,0 +1,42 @@
+<!-- 
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+-->
+
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: burlywood;
+        position: relative;
+        animation: dani2 2s linear infinite;
+    }
+
+    @keyframes dani {
+        from {
+            margin-left: 0;
+        }
+        to {
+            margin-left: 20px;
+        }
+    }
+
+        @keyframes dani2 {
+        0%{
+            margin-left: 0;
+            top: 0;
+        }
+        50% {
+            margin-left: 20px;
+            top: 200px;
+        }
+        100% {
+            margin-left: 0;
+            top: 0;
+        }
+    }
+</style>
+
+<div class="box"></div>

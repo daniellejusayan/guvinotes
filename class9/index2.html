@@ -1,0 +1,56 @@
+<style>
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    background: lightblue;
+    padding: 20px;
+  }
+
+  .content {
+    background: orange;
+    padding: 20px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  @media (min-width: 768px) {
+    .layout {
+      flex-direction: row;
+    }
+
+    .sidebar {
+      width: 25%;
+    }
+
+    .content {
+      width: 75%;
+    }
+
+    .desktop {
+      display: block;
+    }
+
+    .mobile {
+      display: none;
+    }
+  }
+</style>
+
+<body>
+  <div class="layout">
+    <div class="sidebar">Categories</div>
+    <div class="content">Products</div>
+  </div>
+
+  <h2 class="mobile"> Mobile View</h2>
+  <h2 class="desktop"> Desktop View</h2>
+</body>

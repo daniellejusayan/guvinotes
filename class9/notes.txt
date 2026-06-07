@@ -1,0 +1,26 @@
+media queries are used to make a website responsive. 
+It allows us to apply different CSS styles
+
+Without media queries, the website will be broken in the smaller devices. 
+
+Device                      width
+======================================
+small mobile             320px - 480px
+mobile                   481px - 767px
+tablet                   768px - 1024px
+laptop                   1025px - 1440px
+desktop                  1441px - 1920px
+large desktop            1921px +
+ 
+1. @media (max-width: 480px) {
+    style
+}
+MEANING: 480px and below
+
+2. @media(min-width: 768px).... 768px and above
+
+3. min-width and max-width...
+
+4. @media(min-width: 768px) and (max-width: 1024px) {
+    between 768px and 1024px.. apply the following style
+}

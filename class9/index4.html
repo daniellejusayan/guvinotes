@@ -1,0 +1,37 @@
+<!-- 
+ transforms, transitions and animations ... CSS3 
+ 
+ CSS transforms allows us to move, rotate, scale and skew the elements on the web page 
+ without affecting the normal flow of the document.
+
+translate: moves the element from its current position
+translateX: moves the element horizontally
+translateY: moves the element vertically
+rotate: rotates the element
+scale: increase or decrease the size.. scaleX and scaleY
+skew: tilts the element along the X and Y axis. skewX and skewY
+-->
+
+<style>
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+
+        .card {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: skewX(-10deg);
+        }
+
+        button:hover {
+            transform: translateY(-8px);
+        }
+    }
+</style>
+<div class="card"> this is a card</div>
+<button>Submit</button>
