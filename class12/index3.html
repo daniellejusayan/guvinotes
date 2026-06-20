@@ -1,0 +1,41 @@
+<!--  -->
+<style>
+    h2 {
+        text-align: center;
+    }
+
+    .container {
+        width: 300px;
+        margin: 40px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 10px;
+    }
+</style>
+
+<div class="container">
+    <h2>Login</h2>
+    <input type="password" placeholder="Enter your password" id="passwordInput">
+    <button onclick="togglePassword()">Show/Hide Password</button>
+</div>
+
+<script>
+    function togglePassword() {
+    let passwordElement = document.getElementById("passwordInput");
+    let currentType=passwordElement.type;
+
+    if (currentType==="password") {
+        passwordElement.type = "text";
+    } else {
+        passwordElement.type = "password";
+    }
+    }
+</script>

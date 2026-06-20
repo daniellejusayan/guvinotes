@@ -1,0 +1,29 @@
+<div>
+    <h2>To-Do App</h2>
+    <input type="text" placeholder="Enter a task" id="taskInput" value="danielle">
+    <button onclick="addTask()">
+        Add
+    </button>
+    <ul id="taskList">
+
+    </ul>
+</div>
+
+<script>
+    function addTask() {
+        let taskInputElement = document.getElementById("taskInput");    //we are getting input element
+
+        let taskValue = taskInputElement.value; 
+
+        let taskListElement = document.getElementById("taskList"); //we are getting ul
+
+        let listItem = document.createElement("li"); //we are creating li element
+
+        listItem.textContent = taskValue; // we are adding the text to li
+
+        taskListElement.appendChild(listItem); //we are adding li to ul
+
+        taskInputElement.value = ""; //we are clearing the input field
+
+    }
+</script>

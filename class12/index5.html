@@ -1,0 +1,36 @@
+<!-- student search -->
+ <input type="text" placeholder="Search the student" id="searchInput" onkeyup="searchStudent()">
+
+ <ul id="studentList">
+    <li>Dani</li>
+    <li>Peter</li>
+    <li>Jacob</li>
+    <li>Stephen</li>
+    <li>Denise</li>
+ </ul>
+
+ <script>
+    function searchStudent() {
+        let searchElement = document.getElementById("searchInput");
+        let searchText = searchElement.value.toLowerCase();
+
+        // get the ul element
+        let studentListElement = document.getElementById("studentList");
+        //get all the li elements
+        let studentElements = studentListElement.children;
+
+        //loop through the li elements (students)
+        for(let i = 0; i<studentElements.length; i++) {
+            let studentElement=studentElements[i];
+            let studentName=studentElement.textContent.toLowerCase();
+            
+            if(studentName.includes(searchText)) {
+                studentElement.style.display="block";
+            } else {
+                studentElement.style.display="none";
+            }
+            
+        }
+    }
+ </script>
+ 

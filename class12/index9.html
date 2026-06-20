@@ -1,0 +1,28 @@
+<p>HTML</p>
+<p>CSS</p>
+<p>JavaScript</p>
+
+<script>
+    const paras = document.querySelectorAll("p");
+    paras.forEach(para => {
+        para.style.color = "blue";
+        para.style.backgroundColor = "yellow";
+        para.style.padding = "20px";
+    })
+    console.log(paras);
+</script>
+
+<input type="text" class="username" placeholder="Enter your username">
+<button onclick="checkName()">Submit</button>
+
+<script>
+    function checkName() {
+        const user = document.querySelector(".username").value
+
+        if(user ==="") {
+            alert("Please enter the username");
+        } else {
+            alert("Welcome! " + user);
+        }
+    }
+</script>

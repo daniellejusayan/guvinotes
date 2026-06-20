@@ -1,0 +1,2 @@
+DOM = DOCUMENT OBJECT MODEL
+if we wanted to manipulate the html elements like if we wanted to add the styles, classes or add the elements 

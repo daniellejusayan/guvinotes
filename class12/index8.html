@@ -1,0 +1,38 @@
+<!-- querySelector and querySelectorAll -->
+
+<!-- 
+querySelector.. returns the first matching element from the document
+querySelectorAll.. returns all the matching elements from the document as a node list
+
+we can select elements with id, classes, tags...
+
+-->
+<h1 id="title">Welcome</h1>
+<p class="para">This is a paragraph</p>
+<div>This is a Division</div>
+<button onclick="clickMe()"> Submit </button>
+
+<script>
+    function clickMe() {
+    const heading = document.querySelector("#title"); // id element 
+    heading.textContent = "Hello Welcome toJavScript";
+
+    const para = document.querySelector(".para"); // class element
+    para.style.color = "blue";
+    para.style.backgroundColor = "yellow";
+    para.style.padding= "20px";
+
+    const div = document.querySelector("div"); //tag element
+    div.style.color = "red";
+    div.style.backgroundColor = "lightgray";
+    div.style.padding = "20px";
+
+    const button = document.querySelector("button"); // tag element
+    button.style.color = " white";
+    button.style.backgroundColor = "orange";
+    button.style.padding = "10px 20px";
+    button.style.marginTop = "20px";
+    }
+
+
+</script>

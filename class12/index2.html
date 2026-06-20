@@ -1,0 +1,39 @@
+<style>
+  .someClass {
+    margin: 40px;
+    font-size: 40px;
+    text-transform: lowercase;
+    background-color: black;
+    color: white;
+  }
+
+  .headerClass {
+    color: yellow;
+  }
+
+  .dark {
+    background-color: black;
+    color: white;
+    padding: 40px;
+  }
+</style>
+
+<h1 id="welcome" class="headerClass">WELCOME TO SHOPPING WEBSITE</h1>
+<button onclick="welcome()">Submit</button>
+
+<div id="box">Toggle Box</div>
+<button onclick="toggle()">Toggle</button>
+
+<script>
+  function welcome() {
+    const h1 = document.getElementById("welcome");
+    h1.style.color = "green";
+    h1.style.padding = "20px";
+    h1.classList.add("someClass"); //adding the class
+    h1.classList.remove("headerClass"); //removing the class
+  }
+
+  function toggle() {
+    document.getElementById("box").classList.toggle("dark");
+  }
+</script>

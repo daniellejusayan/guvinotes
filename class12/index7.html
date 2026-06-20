@@ -1,0 +1,17 @@
+<!-- document.getElementsByTagNames() -->
+
+<p>This is para1</p>
+<p>This is para2</p>
+<p>This is para3</p>
+<button onclick="changeText()">Change</button>
+
+<script>
+    function changeText() {
+        let paras = document.getElementsByTagName("p");
+        for (let para of paras) {
+            para.style.color = "blue";
+            para.style.backgroundColor = "yellow";
+            para.style.padding = "20px";
+        }
+    }
+</script>
