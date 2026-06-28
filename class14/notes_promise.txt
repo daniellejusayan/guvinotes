@@ -1,0 +1,10 @@
+A promise contains 3 states
+
+1. Pending states -> initial state, 
+2. Fulfilled (Resolved) .. Operation successful
+3. Rejected.. Operation failed
+
+Real Time..
+1. order placed -> pending 
+2. food accepted -> Fulfilled
+3. restaurant cancels the order -> rejected

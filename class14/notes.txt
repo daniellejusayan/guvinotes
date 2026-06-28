@@ -1,0 +1,5 @@
+Modules in js contains code(variables, functions, classes) that can be shared and reused in other js files
+
+it helps us to organize code into separate files, improve the code reusability, and make the application easier
+
+Export: means making variables, functions, available for use in another file
