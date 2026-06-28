@@ -1,0 +1,58 @@
+
+
+
+<button onclick="hello()">click me</button>
+
+
+<input type="number" id="amount" placeholder="Enter Amount">
+
+<h2> User List  </h2>
+<ul>
+    <li>Danielle <button onclick="deleteUser('Danielle')">Delete</button></li>
+    <li>John <button onclick="deleteUser('John')">Delete</button></li>
+    <li>Jane <button onclick="deleteUser('Jane')">Delete</button></li>
+</ul>
+
+<button onclick="login()">Login</button>
+<p id="msg"></p>
+<script>
+    // window.alert("Hello World");
+let balance = 10000;
+    
+
+    function hello() {
+        let amount = document.getElementById("amount").value;
+        if (amount <= 0) {
+            alert(`Invalid Amount`);
+        } 
+        else if (amount > balance) {
+            alert(`Insufficient Balance`);
+        } 
+        else {
+            balance -= amount;
+            alert(`Transaction Successful. Remaining Balance: ${balance}`);
+        }
+    }
+
+    function deleteUser(name) {
+        let result = confirm(`Are you sure you want to delete ${name}?`);
+        if (result) {
+            alert(name + " deleted successfully");
+            console.log("Deleted: " + name);
+        } else {
+            alert(`Deletion cancelled`);
+        }
+    }
+
+    //login functionality
+    function login() {
+        let username = prompt("Enter the username: ");
+        let password = prompt("Enter the password: ")
+
+    if(username === "admin" && password === "1234") {
+        alert(`Login Successful`);
+    } else {
+        alert(`Login Failed`);
+    }
+}
+</script>

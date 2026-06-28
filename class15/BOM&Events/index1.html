@@ -1,0 +1,24 @@
+<button onclick="login()">Login </button>
+<button onclick="logout()">Logout</button>
+<button onclick="show()">Show Users</button>
+<p id ="result"></p>
+<script>
+    function login() {
+        alert(`Login Success`);
+        localStorage.setItem("user", "DANIELLE!!");
+
+        //redirect to dashboard
+        location.href = "http://www.google.com";
+    }
+
+    function logout() {
+        localStorage.clear();
+        alert(`logged out`);
+        location.replace("http://www.guvi.in");
+    }
+
+    function show() {
+        let user = localStorage.getItem("user");
+        document.getElementById("result").textContent = "Welcome " + user;
+    }
+</script>

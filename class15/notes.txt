@@ -1,0 +1,40 @@
+javascript is the programming language
+
+Typescript is a superset of javascript.. every valid code in js is valid in Typescript
+
+additional features
+
+static typing
+interfaces
+types
+generics
+compile time error checking
+
+browser will only understand the javascript, it wont understand the Typescript
+
+whatever we are writing the TS we need to compile and convert to JS... JS will be running in the browser.
+
+TODO for INITIALIZATION:
+
+node -v
+npm -v
+npm init -y
+npm install typescript 
+npx tsc --version
+npx tsc --init
+uncomment src and dist in tscongig.ts file
+create src file
+make app.ts file (any file to run)
+npx tsc
+cd dist
+node app.js
+
+OR 
+
+npm install -D typescript ts-node
+npx ts-node app.ts
+
+Javascript is dynamic conversion... typecasting will happen automatically
+typescript we are going to give 
+
+

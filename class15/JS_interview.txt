@@ -1,0 +1,123 @@
+99% only from this list......
+
+what is javascript 
+what is diff b/w javascript and java
+diff var, let and const 
+diff let and const 
+what are the main advantages of javascript over python and java
+what are different data types of javascript
+what are primitive data types 
+what are non primitive data types or reference data types 
+diff b/w copy by value and copy by refrence 
+how to debug javascript in browser 
+can we javascript in the browser and outside the browser 
+what is v8 engine 
+how to declare varaibles in javascript
+what is typeof operator 
+what is instanceof Operator 
+what is diff b/w == and ===(equality)
+what is diff b/w null and undefined
+what is event bubbling 
+what is event propagation
+what is diff b/w map and set 
+what is diff b/w map, set , weakmap and weakset 
+what is the use of preventDefault
+how to stop the default behvaviour of form when we submit
+what is function 
+how to define the function, call the function
+what is named function 
+what is function expression 
+what is function decaration 
+what is arrow function 
+what is anonymous function 
+what is IIFE function 
+what is recursive function 
+what is high order function 
+what is closure 
+what is inheritance 
+what is object.prototype
+how to add new property to the exisiting object in javascript 
+what is this keyword
+what are diff scopes in javascript
+what is global scope, local scope, function scope, lexical scope 
+what is local storage
+what is session storage
+what is cookie 
+dif b/w local storage and session storage
+what is hoisting and its usage 
+what is use strict 
+what is diff b/w normal function and arrow function 
+what is es6 latest features 
+what is destructuring 
+what is object destructuring and array destructuring
+what is optional chianing operator
+what is nullish coalesing operator
+what is ternary operator
+what is event loop 
+diff javascript events 
+what is diff ways of adding events in javascript 
+what is DOM and explain in detail 
+how to add the class, remove the class, add the style, remove the style using dom 
+what is toggle in dom 
+how to create the element using dom 
+diff b/w append and appenchild 
+what are template literals 
+what are the default parameters in functions 
+what is rest operator 
+what is spread operator
+diff b/w rest and spread
+what is settimeout 
+what is setIntervel 
+diff b/w settimeout vs setIntervel
+what is synchronous 
+what is asynchronous 
+diff b/w sync and async 
+what is callback and give the explanation 
+what is callback hell 
+what is promise 
+what is promise chaining 
+diff promise methods, promise. all, promise.any, promise.race
+what is async/await 
+what is fetch 
+what is for loop, whey we are using for loop 
+what is for....in 
+what is for....of 
+what is foreach 
+diff b/w for....in and for....of 
+what are conditions in javascript
+what is if, if else and else if 
+what is switch 
+what is "this" keyword in javascript
+what is BOM 
+what is super key in javascript
+what is JSON.stringfy 
+what is JSON.parse 
+diff b.w json.stringfy and json.parse
+what is queryselector
+what is queryselectorall
+diff b/w queryselector and queryselectorall
+what is document.getElementByID
+what is document.getElementByClassName
+what is document.getElementByTagName
+what is pure function 
+what is impure function 
+diff pure and impure function 
+what is regex 
+what is javascript modules 
+how javascript works behind the screen 
+how do we debounce a function in javascript
+how do we throttle a function in javascript
+what is error handling in javascript
+how to handle the errors in js
+what is try, catch, finally, throw in error handling 
+what is JSON 
+how to clone an object 
+how to clone an array 
+how to remove specific elements from the given array 
+what is reduce method 
+what is toString 
+how to iterate array of objects 
+how to iterate array of elements 
+how to convert string to number 
+how to access the object properties in js 
+how to throw custom errors

@@ -1,0 +1,7 @@
+DOM = Document Object Model
+BOM = Browser Object Model
+
+BOM is a collection of objects provided by the BROWSER that allows javascript to interact
+
+DOM will work with the HTML page
+BOM will work with the BROWSER, controls BROWSER
